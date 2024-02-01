@@ -2,8 +2,8 @@
    Lakeland Reeds Bed and Breakfast style sheet 
    Filename: styles.css
 
-   Author:   
-   Date:     
+   Author: Mitchell Mudd  
+   Date: 01/31/2024    
    HTML5 and CSS3 Illustrated Unit D, Lessons
  */
 
@@ -19,11 +19,18 @@ article, body, div, footer, header, h1, h2, p {
    max-width: 640px;
    margin: 0 auto;
    background-color: beige;
+   position: relative;
+   top: 6.2em;
 }
 
 /* headings */
 header {
    background-color: darkgreen;
+   width: 100%;
+   max-width: 640px;
+   position: fixed;
+   top: 0;
+   /* z-index: -1; */
 }
 h1 {
    padding: .4em;
@@ -35,7 +42,23 @@ h2 {
    padding: .4em .6em;
 }
 
+p.logo {
+   padding: 0.2em;
+   border: 2px solid beige;
+   color: goldenrod;
+   position: absolute;
+   top: 2em;
+   left: 2em;
+}
+
 /* main content */
+
+article {
+   width: 70%;
+   float: right;
+
+}
+
 article p {
    padding: 0 1em 1em;
 }
@@ -43,6 +66,7 @@ article p {
 /* sidebar */
 aside {
    background-color: goldenrod;
+   width: 30%;
    padding: 1em 0;
 }
 
@@ -59,6 +83,7 @@ footer {
    background-color: darkgreen;
    text-align: center;
    padding: .6em;
+   clear: right;
 }
 
 footer p {
