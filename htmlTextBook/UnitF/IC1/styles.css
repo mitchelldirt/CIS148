@@ -2,8 +2,8 @@
    Spotted Wren Garden Center style sheet 
    Filename: styles.css
 
-   Author:   
-   Date:     
+   Author: Mitchell Mudd 
+   Date: 02/11/2024
    HTML5 and CSS3 Illustrated Unit F, Independent Challenge 1
  */
 
@@ -35,6 +35,21 @@ body {
    position: relative;
 }
 
+/* skip navigation link */
+p.skipnavigation a {
+   position: absolute;
+   left: -10000px;
+}
+
+p.skipnavigation a:focus {
+   color: #34180f;
+   background-color: white;
+   top: 0.4em;
+   right: 0.4em;
+   left: auto;
+   z-index: 2;
+}
+
 /* header section */
 header {
    padding: 0.5em;
@@ -47,6 +62,38 @@ h1 {
 }
 header p {
    color: rgb(241,90,36);
+}
+
+/* site navigation */
+nav.sitenavigation {
+   background-color: rgb(241,90,36);
+   text-align: center;
+}
+
+nav.sitenavigation p {
+   display: inline-block;
+   margin: 0.4em 0.6em;
+   font-size: 1.6em;
+}
+
+nav.sitenavigation a {
+   color: yellow;
+   text-decoration: none;
+}
+
+nav.sitenavigation a:visited {
+   color: white;
+}
+
+nav.sitenavigation a:hover {
+   color: yellow;
+   text-shadow: 1px -1px 0 black;
+}
+
+nav.sitenavigation a:active {
+   position: relative;
+   top: 1px;
+   left: 1px;
 }
 
 /* main content */
@@ -75,6 +122,10 @@ footer {
    .container, h1, h2, header p, p {
       color: black;
       background-color: white;
+   }
+
+   nav {
+      display: none;
    }
 }
 @page {
