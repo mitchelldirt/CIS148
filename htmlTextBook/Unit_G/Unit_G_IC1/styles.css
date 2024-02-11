@@ -11,10 +11,17 @@
 html {
    font-size: 12px;
 }
-article, body, div, footer, header, h1, h2, h3, nav, p {
+article, body, div, figcaption, figure, footer, header, h1, h2, h3, img, nav, p {
    border: 0;
    padding: 0;
    margin: 0;
+}
+
+img {
+   max-width: 100%;
+   height: auto;
+   width: auto;
+   display: block;
 }
 
 /* global styles */
@@ -33,7 +40,8 @@ body {
    margin: 0 auto;
    padding: 1%;
    position: relative;
-   background-color: #6ac238;
+   background: #6ac238;
+   background: url("./images/grass.jpg");
 }
 
 /* skip navigation link */
@@ -102,10 +110,16 @@ h2 {
    font-size: 2.4em;
    font-weight: 700;
 }
+
 h3 {
    font-size: 1.8em;
    font-weight: bold;
    color: green;
+}
+
+figure {
+   float: right;
+   width: 25%;
 }
 
 /* footer section */
@@ -119,7 +133,7 @@ footer {
 @media print {
    .container, h1, h2, p {
       color: black;
-      background-color: white;
+      background: white;
    }
    nav {
       display: none;
