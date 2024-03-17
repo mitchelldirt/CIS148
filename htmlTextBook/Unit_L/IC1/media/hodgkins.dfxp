@@ -1,0 +1,29 @@
+<tt xmlns="http://www.w3.org/2006/04/ttaf1" xmlns:tts="http://www.w3.org/2006/04/ttaf1#styling" xml:lang="en">
+   <head>
+      <styling>
+         <style id="defaultCaption" tts:textAlign="center" tts:fontSize="20" tts:backgroundColor="transparent" tts:color="white" tts:fontFamily="SansSerif" tts:fontWeight="bold"/>
+      </styling>
+   </head>
+<body>
+   <div style="defaultCaption" xml:lang="en">
+      <p begin="00:00:01.00" dur="00:00:01.80">
+         [Water running, wind blowing]
+      </p>
+      <p begin="00:00:02.00" dur="00:00:03.90">
+         We just love the water features.
+      </p>
+      <p begin="00:00:04.20" dur="00:00:06.00">
+         I bring my morning coffee out here, 
+      </p>
+      <p begin="00:00:06.20" dur="00:00:07.30">
+         close my eyes,
+      </p>
+      <p begin="00:00:07.50" dur="00:00:11.50">
+         and just enjoy the sound of the water as I prepare for my day.
+      </p>
+      <p begin="00:00:12.00" dur="00:00:42.00">
+         [Water running, wind blowing]
+      </p>
+   </div>
+</body>
+</tt>
