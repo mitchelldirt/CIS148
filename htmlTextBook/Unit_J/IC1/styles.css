@@ -28,7 +28,13 @@ li,
 nav,
 p,
 section,
-ul {
+ul,
+fieldset,
+form,
+input,
+label,
+legend,
+textarea {
    border: 0;
    padding: 0;
    margin: 0;
@@ -156,6 +162,81 @@ figure {
    width: 40%;
    float: right;
    text-align: center;
+}
+
+/* form styles */
+form {
+   margin: 2%;
+   padding: 2%;
+   border: 2px solid black;
+   background-color: #ff9c78;
+}
+
+/* fieldset styles */
+fieldset {
+   margin: 0 0 1em 1em;
+}
+
+legend {
+   margin: 0 0 0.4em -1em;
+   font-size: 1.2em;
+   font-weight: bold;
+}
+
+.submitbutton {
+   margin-bottom: 0;
+}
+
+/* field styles */
+input {
+   border: 1px solid #777;
+   padding: 0.2em;
+   font-size: 1em;
+}
+
+.contactinfo input {
+   position: absolute;
+   left: 8em;
+}
+
+#emailinput,
+#nameinput,
+#addressinput {
+   width: 30em;
+}
+
+#zipinput,
+#phoneinput {
+   width: 12em;
+}
+
+#notes {
+   display: block;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+   margin-right: 0.2em;
+}
+
+/* label styles */
+label {
+   font-size: 1em;
+}
+
+.contactinfo label {
+   margin: 0.7em 0;
+   display: block;
+   position: relative;
+}
+
+.timinginfo label {
+   margin-right: 0.5em;
+}
+
+.jobtype label {
+   display: block;
+   margin-bottom: 0.2em;
 }
 
 /* footer section */
